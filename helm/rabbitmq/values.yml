@@ -1,0 +1,11 @@
+persistence:
+  enabled: true
+  storageClass: nfs
+metrics:
+  enabled: true
+  port: 9090
+rabbitmq:
+  username: admin
+  password: admin
+  erlangCookie: secretcookie
+  extraPlugins: "rabbitmq_prometheus"

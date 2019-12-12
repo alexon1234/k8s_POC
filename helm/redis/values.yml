@@ -1,0 +1,6 @@
+persistence:
+  enabled: true
+  storageClass: nfs
+metrics:
+  enabled: true
+password: "lu42hoShVj"
